@@ -1,0 +1,89 @@
+body {
+    margin: 0;    
+    padding: 0;     
+    box-sizing: border-box;  
+    
+}  
+
+.nasa{
+    width: 260px;
+    height:50px;
+    border-radius: 10px;     
+    background-color: rgb(31, 29, 29);     
+    display: flex;     
+    justify-content: space-around;     
+    align-items: center; 
+    margin-top:70px;
+   
+} 
+
+#data {  
+    background-color: rgb(31, 29, 29); 
+    color: white;    
+    border: 0; 
+}  
+     
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    filter: invert(0.8) brightness(1000%) sepia(1%) saturate(1000%) hue-rotate(20deg);
+    background-image: none;
+  
+    
+}
+
+button { 
+    width: 35px;    
+    height: 35px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+                  
+button > img {     
+    width: 35px;    
+    height: 35px;
+}
+
+#imagem > img{
+    width:100vw;
+    height:100vh;
+   
+    
+}
+#imagem > iframe{
+    width:100vw;
+    height:100vh;
+}
+
+main{
+    Position: absolute;
+    
+    left: 12%;
+    right: 12%;
+    top:35%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+    
+
+}
+
+section{
+    
+    color:white;
+    font-size: 22px;
+    text-align: center;
+    margin: auto;
+  
+
+    
+}
+#title{
+    margin-bottom:12px;
+}
+
+
+
